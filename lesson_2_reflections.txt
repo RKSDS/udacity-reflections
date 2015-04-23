@@ -5,3 +5,7 @@ A new .git folder was created which keeps track of the files which are in the re
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Staging area is useful when we have multiple files that are in the working directory but not in repository. It is very much possible that we want to add one file after another or change of one file is done while other is in progress and we would be adding the second file later. In this case we could add file with changes complete to staging area and then do the modification to second file to complete its work and add it to staging area when the work is complete and commit both at the same time as both of them mught be related somehow.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+With staging area we can have files staged here until all the files related to one logic change are not added and wait for commit to be performed. After all the changes are done and all files are added to staging area the files are commited to repository.
