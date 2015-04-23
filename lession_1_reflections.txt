@@ -1,0 +1,28 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It was pin pointed where the diffs are so the context or the amount of data to review was less and easy.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+If history is available I don't have to waste time recalling what I did in past or how I evolved. This also gives easy access to working versions of my work and it will be easy to pullout the correct recond if something is getting messed up when I am doing some change.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+First with pros, if we do manual commit, the commits will make sense i.e. it will be logical and we can control the size of version but with automatic saved versions the commits will have non working versions and also the size would be huge.
+But with cons, manual commits could slip sometimes and you may loose some data where as auto save makes sure that you have every thing backedup. Human error is handled in these cases.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+For the related changes to be together and logically versioned it is impoetant that we keep track of related files with each change.
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log shows the commut history and git diff between two commit versions shows the changes between the two versions
+
+How might using version control make you more confident to make changes that could break something?
+
+using version control we can go in history and check what went wrong and when and hence giving huge advantage of doing changes freely.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I am a developer and hence I would be using it for developing codes for my website or app.
