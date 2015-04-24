@@ -22,3 +22,7 @@ What is the result of merging two branches together? Why do we represent it in t
 
 The mearge with contain all the changes from two branches with reference to the original files from which the two branches were created.
 We represent it in the diagram to see what changes were there on different branches so that we could refer to them using proper commits.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+For git when it is clear that the files are modified at different regions and which change to keep is obvious it is good that git auto merge is performed as it would be usually the case that people would be working on different logic and modifying different portion of a file and it would be tidious to merge these obvious changes manually. But if the same region is modified by different persons then it is good to do manual merging of the files. Git wont be knowing in this scenario which changes to keep and which to discard.
