@@ -1,1 +1,4 @@
 When would you want to use a remote repository rather than keeping all your work local?
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+To collaborate without git and github we would require some kind of notification mechanism most probably mailing each time manually. That would be harder and also there are chances that there would be human error incolved. I dont see anything going easy there when comparing with git.
